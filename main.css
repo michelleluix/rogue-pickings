@@ -1,0 +1,156 @@
+/***** BASE STYLES *****/
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
+h1, h2, h3, h4 {
+  text-transform: uppercase;
+  font-weight: 700;
+  color: black;
+}
+
+h1 {
+  font-size: 30px;
+}
+
+h2 {
+  font-size: 24px;
+}
+
+h3 {
+  font-size: 18px;
+}
+
+h4 {
+  font-size: 12px;
+  padding-left: 30px;
+}
+
+p {
+  font-size: 14px;
+  line-height: 21px;
+  padding: 0 30px;
+}
+
+/***** GRID *****/
+.container, .top-section, footer {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+header {
+  height: 110px;
+  margin: 0 auto;
+}
+
+.top-section, .bottom-section {
+  margin: 0 auto;
+  clear: both;
+}
+
+.section-one, .section-two, .section-three {
+  width: 399px;
+  height: 200px;
+  padding-top: 15px;
+  float: left;
+  border-top: 1px solid lightgray;
+}
+
+/***** HEADER SECTION *****/
+h1 {
+  float: left;
+  margin: 0;
+  padding: 38px 0;
+}
+
+h1 span {
+  color: green;
+}
+
+header nav {
+  float: right;
+  padding: 46px 0;
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+  padding: 0 10px;
+  font-size: 14px;
+}
+
+nav ul li a {
+  font-weight: bold;
+  color: green;
+  padding: 0 10px;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+img {
+  border: 3px solid green;
+  height: auto;
+}
+
+/***** TOP SECTION *****/
+h3 {
+  color: green;
+  text-transform: uppercase;
+  text-align: left;
+  padding: 5px 0;
+}
+
+.top-section p {
+  padding: 0;
+  font-size: 16px;
+  line-height: 20px;
+  padding-bottom: 10px;
+}
+
+/***** BOTTOM SECTION ONE*****/
+.section-one p {
+  color: green;
+}
+
+.section-one {
+  border-right: 1px solid lightgray;
+}
+
+/***** BOTTOM SECTION TWO *****/
+.section-two {
+  border-right: 1px solid lightgray;
+}
+
+.section-two p {
+  font-size: 16px;
+  line-height: 21px;
+}
+
+/***** BOTTOM SECTION THREE *****/
+.address {
+  font-size: 16px;
+  line-height: 24px;
+}
+
+/***** FOOTER SECTION *****/
+footer {
+  height: 50px;
+  border-top: 1px solid lightgray;
+  margin: 0 auto;
+  clear: both;
+  text-align: center;
+}
+
+h4 {
+  text-transform: uppercase;
+}
+
+footer h4 span {
+  font-family: 'Dancing Script', cursive;
+  color: green;
+  text-transform: none;
+}
